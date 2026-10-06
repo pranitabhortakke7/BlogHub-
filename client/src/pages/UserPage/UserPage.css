@@ -1,0 +1,42 @@
+.user-page {
+	margin: 10px;
+}
+
+.user-page .card-content {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.user-page__header {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.user-page__header img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.user-page__header h2,
+.user-page__header p {
+	margin: 0 0 0.35rem;
+}
+
+.user-page__header button {
+	margin-left: auto;
+}
+
+.user-page__counts {
+	display: flex;
+	gap: 2rem;
+	margin: 1.25rem 0;
+	padding: 1rem 0;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+.user-page__counts strong {
+	margin-right: 0.35rem;
+}
